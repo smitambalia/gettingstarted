@@ -1,0 +1,86 @@
+.conda
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+env/
+*.venv
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+wheelhouse/
+
+# Logs and debugging
+logs/
+*.log
+*.out
+*.err
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Pytest / Coverage
+.coverage
+.tox/
+.nox/
+*.cover
+.hypothesis/
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+htmlcov/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# Cython
+cython_debug/
+
+# IDE / Editor specific
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Docker
+docker-compose.override.yml
+
+# Terraform
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+
+# Ansible
+*.retry
+
+# Environment variables / Secrets
+.env
+*.env
+secrets.json
+config.json
+
+# SQLite database files
+*.sqlite3
+*.db
+
+# Python packaging artifacts
+MANIFEST
+
+# Local `.env` and other config files
+.env.local
+.env.production
+.env.development
+.env.testing
