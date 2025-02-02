@@ -1,3 +1,6 @@
-python-env
-langchain
-langchain-openai
+python-env  ## Python Environment
+langchain   ## Langchain
+langchain-openai ## Langchain OpenAI
+langchain-community ## Langchain Community
+bs4 ## BeautifulSoup4
+faiss-cpu ## Facebook AI Similarity Search
